@@ -1,5 +1,5 @@
 
-## 🏛 Class 1 (07-02-2023): Introduction
+## 🏛 Class 1 (07-02-2023): Introduction, compositionality
 
 ### Topics:
 - Administrative aspects of the course.
