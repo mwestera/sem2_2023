@@ -36,7 +36,7 @@ Core idea:
 
 ### Preparation (do this before class; around 10 minutes)
 
-1. Refresh your memories of (Semantics 1)[https://github.com/mwestera/sem1_2023]. What were some of the core concepts you learned about?
+1. Refresh your memories of [Semantics 1](https://github.com/mwestera/sem1_2023). What were some of the core concepts you learned about?
 
 -----
 
