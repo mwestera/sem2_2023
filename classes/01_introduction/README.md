@@ -3,7 +3,39 @@
 
 ### Topics:
 - Administrative aspects of the course.
-- Compositionality (preparation for chapter 12 of the book).
+- Brainstorming about some hot topics in semantics
+
+----
+
+### Class notes
+
+#### Quantifiers
+
+(summary of part of Semantics 1)
+
+
+#### Propositional attitudes
+
+- Ann believes the Earth is flat.
+- Ann believes the sun will explode tomorrow.
+
+#### Questions
+
+- Ann is smart.
+- Is Ann smart?
+- Ann is smart?
+
+- Who is smart?
+- Which student is smart?
+
+#### Conditionals
+
+Examples:
+- If Ann wins tomorrow, she will get a nice prize.
+- If the sun explodes tomorrow, Ann will win.
+- If Ann wins tomorrow, the sun will not explode.
+- If Ann wins tomorrow, she might get a nice prize.
+- If Ann doesn't win tomorrow, she might get a nice prize.
 
 ----
 
@@ -15,7 +47,7 @@
 
 ### Postparation (do this after class; around 4 hours)
 
-1. **Compositionality.** Before reading the textbook, try to define the (semantically relevant) notion of _compositionality_ in your own terms, based on our class discussion. In a later exercise below (to be submitted) you will refine it.
+1. **Compositionality.** Before reading the textbook, try to define the (semantically relevant) notion of _compositionality_ in your own terms. In a later exercise below (to be submitted) you will refine it.
 2. **Rules of composition.** Do you remember some composition rules we formulated in class during the course Semantics 1? If not, look back through your notes if necessary.
 3. **Read Ch.12: How meanings are composed.** Read and study the chapter closely.
 4. **Substitutivity:** ⭐ What is 'substitutivity', and what is its relation to compositionality? In relation to this, try your utmost to understand each of the linguistic examples in Section 12.3.
