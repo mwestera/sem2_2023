@@ -3,6 +3,9 @@
 
 ### Topics:
 - Administrative aspects of the course.
+  - First semester's materials: https://github.com/mwestera/sem1_2023
+  - Schedule office hours: Fridays 14:00 (unless it's impossible, let me know) @ Reuvensplaats.
+  - Questions always welcome in the forum, break or office hours please.
 - Brainstorming about some hot topics in semantics
 
 ----
