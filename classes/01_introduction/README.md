@@ -16,29 +16,21 @@
 
 (summary of part of Semantics 1)
 
+Core idea: Type mismatch --> something funky may be going on (quantifier raising)
+  Side effect: we get different scope readings :)
+
 
 #### Propositional attitudes
 
 - Ann believes the Earth is flat.
 - Ann believes the sun will explode tomorrow.
 
-#### Questions
+Core idea: 
+1. believe needs to have access to the sense, not only the denotation
+   (because I can believe one thing, and not another thing, even if both are true)
+2. type mismatch --> something funky may be going on (shifting from denotation to sense)
 
-- Ann is smart.
-- Is Ann smart?
-- Ann is smart?
 
-- Who is smart?
-- Which student is smart?
-
-#### Conditionals
-
-Examples:
-- If Ann wins tomorrow, she will get a nice prize.
-- If the sun explodes tomorrow, Ann will win.
-- If Ann wins tomorrow, the sun will not explode.
-- If Ann wins tomorrow, she might get a nice prize.
-- If Ann doesn't win tomorrow, she might get a nice prize.
 
 ----
 
