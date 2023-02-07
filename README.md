@@ -12,6 +12,8 @@ https://langsci-press.org/catalog/book/359
 |  🏛  | 14-02-2023 | Class 2 | De-re and de-dicto ambiguity (1/2) |  [Details](classes/02_de_re_de_dicto/README.md)  |
 |  🏛  | 21-02-2023 | Class 3 | De-re and de-dicto ambiguity (2/2) | [Details](classes/03_de_re_de_dicto_2/README.md) |
 |  🏛  | 28-02-2023 | Class 4 | Model theory, set theory and logic |   [Details](classes/04_model_theory/README.md)   |
+|  🏛  | 07-03-2023 | Class 5 |         Quantifiers (1/2)          |   [Details](classes/05_quantifiers/README.md)    |
+|  🏛  | 14-03-2023 | Class 6 |         Quantifiers (2/2)          |  [Details](classes/06_quantifiers_2/README.md)   |
 
 
 Notes:
