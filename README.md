@@ -6,10 +6,12 @@ https://langsci-press.org/catalog/book/359
 
 
 ## Schedule
-|     |    Date    |   Item  |             Title              |                                                |
-| --- |    ---     |   ---   |              ---               |                      ---                       |
-|  🏛  | 07-02-2023 | Class 1 | Introduction, compositionality |  [Details](classes/01_introduction/README.md)  |
-|  🏛  | 14-02-2023 | Class 2 |  De-re and de-dicto ambiguity  | [Details](classes/02_de_re_de_dicto/README.md) |
+|     |    Date    |   Item  |               Title                |                                                  |
+| --- |    ---     |   ---   |                ---                 |                       ---                        |
+|  🏛  | 07-02-2023 | Class 1 |   Introduction, compositionality   |   [Details](classes/01_introduction/README.md)   |
+|  🏛  | 14-02-2023 | Class 2 | De-re and de-dicto ambiguity (1/2) |  [Details](classes/02_de_re_de_dicto/README.md)  |
+|  🏛  | 21-02-2023 | Class 3 | De-re and de-dicto ambiguity (2/2) | [Details](classes/03_de_re_de_dicto_2/README.md) |
+|  🏛  | 28-02-2023 | Class 4 | Model theory, set theory and logic |   [Details](classes/04_model_theory/README.md)   |
 
 
 Notes:
