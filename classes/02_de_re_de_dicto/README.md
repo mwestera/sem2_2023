@@ -104,7 +104,7 @@ We add the situation/world type _s_ to our ontology (se we have _e_, _s_ and _t_
 - <s, t>: mapping from worlds to truth values (i.e., a set of worlds), a 'proposition'.
 - ... 
 
-**Terminology:** _extension_ is denotation, _intension_ is a function from worlds to denotations, \approx sense.
+**Terminology:** _extension_ is denotation, _intension_ is a function from worlds to denotations, ≈ sense.
 
 Could such a 'possible worlds' approach to senses-as-intensions account for this:
 
