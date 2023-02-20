@@ -2,13 +2,22 @@
 ## 🏛 Class 3 (21-02-2023): De-re and de-dicto ambiguity (2/2) 
 
 ### Topics:
-- We try to develop a formal, compositional account of propositional attitudes and the ambiguity.
+1. Formal fragment of intensional semantics.
+2. Challenges & open questions
+
 
 ----
 
-### Preparation (do this before class; around 30 minutes)
+### Preparation (do this before class; around 20 minutes)
 
-1. **tbd.** tbd.
+1. **Homework review.** Review your own homework from last time.
+
+
+----
+
+
+## Class notes:
+
 
 -----
 
