@@ -16,16 +16,16 @@ https://langsci-press.org/catalog/book/359
 |                                          🏛                                          | 28-02-2023 |    Class 4     |     Model theory, set theory and logic    |   [Details](classes/04_model_theory/README.md)   |
 |                                          🏛                                          | 07-03-2023 |    Class 5     |             Quantifiers (1/2)             |   [Details](classes/05_quantifiers/README.md)    |
 |                                          🏛                                          | 14-03-2023 |    Class 6     |             Quantifiers (2/2)             |  [Details](classes/06_quantifiers_2/README.md)   |
-|                                          🏛                                          | 21-03-2023 |    Class 7     |              Questions (1/2)              |       [Details](classes/07_tbd/README.md)        |
+|                                          🏛                                          | 21-03-2023 |    Class 7     |              Questions (1/2)              |    [Details](classes/07_questions/README.md)     |
 |                                          🏁                                          | 28-03-2023 | Mid-term exam  |                                           |                                                  |
-|                                          🏛                                          | 04-04-2023 |    Class 8     |              Questions (2/2)              |       [Details](classes/08_tbd/README.md)        |
+|                                          🏛                                          | 04-04-2023 |    Class 8     |              Questions (2/2)              |   [Details](classes/08_questions_2/README.md)    |
 |                                                                                     | 11-04-2023 |    No class    |                                           |                                                  |
-|                                          🏛                                          | 18-04-2023 |    Class 9     |        Modals and evidentials (1/2)       |       [Details](classes/09_tbd/README.md)        |
-|                                          🏛                                          | 25-04-2023 |    Class 10    |        Modals and evidentials (2/2)       |       [Details](classes/10_tbd/README.md)        |
-|                                          🏛                                          | 02-05-2023 |    Class 11    |                Conditionals               |       [Details](classes/11_tbd/README.md)        |
-|                                          🏛                                          | 09-05-2023 |    Class 12    |           Tense and aspect (1/2)          |       [Details](classes/12_tbd/README.md)        |
-|                                          🏛                                          | 16-05-2023 |    Class 13    |           Tense and aspect (2/2)          |       [Details](classes/13_tbd/README.md)        |
-|                                          🏛                                          | 23-05-2023 |    Class 14    |                   Recap                   |       [Details](classes/14_tbd/README.md)        |
+|                                          🏛                                          | 18-04-2023 |    Class 9     |        Modals and evidentials (1/2)       |      [Details](classes/09_modals/README.md)      |
+|                                          🏛                                          | 25-04-2023 |    Class 10    |        Modals and evidentials (2/2)       |     [Details](classes/10_modals_2/README.md)     |
+|                                          🏛                                          | 02-05-2023 |    Class 11    |                Conditionals               |   [Details](classes/11_conditionals/README.md)   |
+|                                          🏛                                          | 09-05-2023 |    Class 12    |           Tense and aspect (1/2)          |      [Details](classes/12_tense/README.md)       |
+|                                          🏛                                          | 16-05-2023 |    Class 13    |           Tense and aspect (2/2)          |     [Details](classes/13_tense_2/README.md)      |
+|                                          🏛                                          | 23-05-2023 |    Class 14    |                   Recap                   |      [Details](classes/14_recap/README.md)       |
 |                                          🏁                                          | 31-05-2023 |                |                 Final exam                |                                                  |
 
 
