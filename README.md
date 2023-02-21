@@ -11,12 +11,21 @@ https://langsci-press.org/catalog/book/359
 |                                          🏛                                          | 07-02-2023 |    Class 1     |       Introduction, compositionality      |   [Details](classes/01_introduction/README.md)   |
 | [📝](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/topics/2292943) | 10-02-2023 | Assignment 1.8 | Definition and status of compositionality |   [Details](classes/01_introduction/README.md)   |
 |                                          🏛                                          | 14-02-2023 |    Class 2     |     De-re and de-dicto ambiguity (1/2)    |  [Details](classes/02_de_re_de_dicto/README.md)  |
-|  [📝](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941) | 17-02-2023 | Assignment 2.5 |            Summary of the paper           |  [Details](classes/02_de_re_de_dicto/README.md)  |
+|  [📝](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941) | 17-02-2023 | Assignment 2.6 |            Summary of the paper           |  [Details](classes/02_de_re_de_dicto/README.md)  |
 |                                          🏛                                          | 21-02-2023 |    Class 3     |     De-re and de-dicto ambiguity (2/2)    | [Details](classes/03_de_re_de_dicto_2/README.md) |
 |                                          🏛                                          | 28-02-2023 |    Class 4     |     Model theory, set theory and logic    |   [Details](classes/04_model_theory/README.md)   |
 |                                          🏛                                          | 07-03-2023 |    Class 5     |             Quantifiers (1/2)             |   [Details](classes/05_quantifiers/README.md)    |
 |                                          🏛                                          | 14-03-2023 |    Class 6     |             Quantifiers (2/2)             |  [Details](classes/06_quantifiers_2/README.md)   |
+|                                          🏛                                          | 21-03-2023 |    Class 7     |              Questions (1/2)              |       [Details](classes/07_tbd/README.md)        |
 |                                          🏁                                          | 28-03-2023 | Mid-term exam  |                                           |                                                  |
+|                                          🏛                                          | 04-04-2023 |    Class 8     |              Questions (2/2)              |       [Details](classes/08_tbd/README.md)        |
+|                                                                                     | 11-04-2023 |    No class    |                                           |                                                  |
+|                                          🏛                                          | 18-04-2023 |    Class 9     |        Modals and evidentials (1/2)       |       [Details](classes/09_tbd/README.md)        |
+|                                          🏛                                          | 25-04-2023 |    Class 10    |        Modals and evidentials (2/2)       |       [Details](classes/10_tbd/README.md)        |
+|                                          🏛                                          | 02-05-2023 |    Class 11    |                Conditionals               |       [Details](classes/11_tbd/README.md)        |
+|                                          🏛                                          | 09-05-2023 |    Class 12    |           Tense and aspect (1/2)          |       [Details](classes/12_tbd/README.md)        |
+|                                          🏛                                          | 16-05-2023 |    Class 13    |           Tense and aspect (2/2)          |       [Details](classes/13_tbd/README.md)        |
+|                                          🏛                                          | 23-05-2023 |    Class 14    |                   Recap                   |       [Details](classes/14_tbd/README.md)        |
 |                                          🏁                                          | 31-05-2023 |                |                 Final exam                |                                                  |
 
 
