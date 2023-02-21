@@ -46,7 +46,7 @@ John sleeps.
 
 - sleeps ⇝ λwₛ λxₛₑ . SLEEP(w)(x(w))
 - John ⇝ λwₛ. john(w)
-- John sleeps ⇝ λv . ⧙sleeps⧘(v)(⧙john⧘)
+- John sleeps ⇝ λv . ⧙sleeps⧘(v)(⧙John⧘)
   - λv . (λwₛ λxₛₑ . SLEEP(w)(x(w)))(v) (λwₛ. john(w))
   - λv . (λxₛₑ . SLEEP(v)(x(v))) (λwₛ. john(w))
   - λv . (SLEEP(v)((λwₛ. john(w))(v)))
@@ -68,7 +68,7 @@ More sloppily:
 Susie sees John.
 
 - sees ⇝ λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w))
-- sees John ⇝ λuₛ . ⧙sees⧘(u)(⧙john⧘)
+- sees John ⇝ λuₛ . ⧙sees⧘(u)(⧙John⧘)
   - λu (λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w)))(u) (λv. john(v))
   - λu (λyₛₑ λxₛₑ . SEE(u)(x(u), y(u))) (λv. john(v))
   - λu (λxₛₑ . SEE(u)(x(u), (λv. john(v))(u)))
@@ -118,36 +118,9 @@ John sees every student
   - λw (λQ ∀x [STUDENT(w)(x) → Q(w)(λu.x)]) (λvₛ λyₛₑ λxₛₑ . SEE(v)(x(v), y(v)))
   - TYPE MISMATCH: function wants a Q of type <s, <e, t>>, argument is of type <s, <<e, t>, <<e, t>, t>>>
 
+⸉test⸊
 
 [remainder to be done in class]
-
-
-
-### 2. The derivation of de-re/de-dicto ambiguity
-
->
-> - The Governor still believes in Santa Claus.
-> - Ponce de León hoped to find the fountain of youth.
-> 
-> [...]
-> Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value  of the sentence as a whole can be affected.
-> 
-> - Mary does not know [that Samuel Clemens is Mark Twain].
-> - ? Mary does not know [that Samuel Clemens is Samuel Clemens].
-
-Main take-away: expressions like believe, hope, seek should have access to the _intensions_ of their complements.
-
-> - The Dean believes that I am collaborating with a famous linguist.
-
-De-re/de-dicto: the de-dicto reading seems to involve the _intension_ of 'a famous linguist', de-re is about its _extension_.
-
-
-#### Derivation with propositional attitude verb 'believe'
-
-Susie believes John sleeps.
-
-[to be done in class]
-
 
 
 
