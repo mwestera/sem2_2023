@@ -1,5 +1,5 @@
 
-## 🏛 Class 2 (14-02-2023): De-re and de-dicto ambiguity (1/2)
+## 🏛 Class 2 (14-02-2023): Intensional semantics (1/3)
 
 ### Topics:
 - De-re, de-dicto ambiguity.
@@ -25,6 +25,7 @@ For a natural language structure α, its logical translation τ and its interpre
 
 - translation: α ⇝ τ, 
   - and for convenience we can also agree to write: ⧙α⧘ = τ
+  - [UPDATE] For readability we changed ⧙α⧘ into ❴α❵ (signifying: the translation of the syntactic node α into logic). 
 - interpretation: ⟦τ⟧ = A (e.g., true, false, (set of) entities, etc.)
 
 ***Note:*** The book doesn't always keep these two steps consistently separated, e.g., it will mix the intermediate, logical language with the (final) meta-language of English + set theory, and also mix the logical language with the object language (e.g., apply ⟦...⟧ to both).

@@ -18,7 +18,7 @@
 
 ## Class notes:
 
-Note: for readability we changed ⧙α⧘ into ⸉α⸊ (signifying: the translation of the syntactic node α). 
+Note: for readability we changed ⧙α⧘ into ❴α❵ (signifying: the translation of the syntactic node α). 
 
 ### 1. A formal fragment in intensional semantics
 
@@ -34,10 +34,10 @@ Types:
 
 
 **Extensional function application:** 
-- For a syntactic node with expressions α and β as children, a candidate translation is: ⸉α⸊(⸉β⸊)
+- For a syntactic node with expressions α and β as children, a candidate translation is: ❴α❵(❴β❵)
 
 **Intensional function application:**
-- For a syntactic node with expressions α and β as children, a candidate translation is: λw ⸉α⸊(w)(⸉β⸊)
+- For a syntactic node with expressions α and β as children, a candidate translation is: λw ❴α❵(w)(❴β❵)
 
 > Q: why not apply β to world w too?
 
@@ -48,7 +48,7 @@ John sleeps.
 
 - sleeps ⇝ λwₛ λxₛₑ . SLEEP(w)(x(w))
 - John ⇝ λwₛ. john(w)
-- John sleeps ⇝ λv . ⸉sleeps⸊(v)(⸉John⸊)
+- John sleeps ⇝ λv . ❴sleeps❵(v)(❴John❵)
   - λv . (λwₛ λxₛₑ . SLEEP(w)(x(w)))(v) (λwₛ. john(w))
   - λv . (λxₛₑ . SLEEP(v)(x(v))) (λwₛ. john(w))
   - λv . (SLEEP(v)((λwₛ. john(w))(v)))
@@ -70,12 +70,12 @@ More sloppily:
 Susie sees John.
 
 - sees ⇝ λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w))
-- sees John ⇝ λuₛ . ⸉sees⸊(u)(⸉John⸊)
+- sees John ⇝ λuₛ . ❴sees❵(u)(❴John❵)
   - λu (λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w)))(u) (λv. john(v))
   - λu (λyₛₑ λxₛₑ . SEE(u)(x(u), y(u))) (λv. john(v))
   - λu (λxₛₑ . SEE(u)(x(u), (λv. john(v))(u)))
   - λu λxₛₑ . SEE(u)(x(u), john(u))
-- Susie sees John ⇝ λwₛ . ⸉sees John⸊(w)(⸉susie⸊) 
+- Susie sees John ⇝ λwₛ . ❴sees John❵(w)(❴susie❵) 
   - λw . (λuₛ λxₛₑ . SEE(u)(x(u), john(u)))(w) (λv. susie(v))
   - λw . (λxₛₑ . SEE(w)(x(w), john(w))) (λv. susie(v))
   - λw . (SEE(w)((λv. susie(v))(w), john(w)))
@@ -91,14 +91,14 @@ Every student sleeps
 - sleeps ⇝ λwₛ λxₛₑ . SLEEP(w)(x(w))
 - student ⇝ λwₛ λxₛₑ . STUDENT(w)(x(w))
 - Every ⇝ λwₛ λP<sub><s, et></sub> λQ<sub><s, et></sub> ∀x [P(v)(λu.x) → Q(v)(λu.x)]
-- Every student ⇝ λvₛ . ⸉every⸊(v) (⸉student⸊)
+- Every student ⇝ λvₛ . ❴every❵(v) (❴student❵)
   - λv (λw λP λQ ∀x [P(v)(λu.x) → Q(v)(λu.x)])(v) (λu λy. STUDENT(u)(y(u)))
   - λv (λP λQ ∀x [P(v)(λu.x) → Q(v)(λu.x)]) (λu λy. STUDENT(u)(y(u)))
   - λv (λQ ∀x [((λu λy.STUDENT(u)(y(u))))(v)(λu.x) → Q(v)(λu.x)])
   - λv (λQ ∀x [(λy.STUDENT(v)(y(v)))(λu.x) → Q(v)(λu.x)])
   - λv (λQ ∀x [STUDENT(v)(λu.x (v)) → Q(v)(λu.x)])
   - λv (λQ ∀x [STUDENT(v)(x) → Q(v)(λu.x)])
-- Every student sleeps ⇝ λuₛ . ⸉every student⸊(u) (⸉sleeps⸊)
+- Every student sleeps ⇝ λuₛ . ❴every student❵(u) (❴sleeps❵)
   - λu (λv λQ ∀x [STUDENT(v)(x) → Q(v)(λv.x)]) (u) (λw λy . SLEEP(w)(y(w)))
   - λu (λQ ∀x [STUDENT(u)(x) → Q(u)(λv.x)]) (λw λy . SLEEP(w)(y(w)))
   - λu (∀x [STUDENT(u)(x) → (λw λy . SLEEP(w)(y(w)))(u)(λv.x)])
@@ -115,12 +115,12 @@ John sees every student
 
 - sees ⇝ (λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w)))
 - every student ⇝ λv (λQ ∀x [STUDENT(v)(x) → Q(v)(λu.x)])(w)
-- sees every student ⇝ λwₛ . ⸉every student⸊(w) (⸉sees⸊)
+- sees every student ⇝ λwₛ . ❴every student❵(w) (❴sees❵)
   - λw (λv (λQ ∀x [STUDENT(v)(x) → Q(v)(λu.x)])(w)) (λvₛ λyₛₑ λxₛₑ . SEE(v)(x(v), y(v)))
   - λw (λQ ∀x [STUDENT(w)(x) → Q(w)(λu.x)]) (λvₛ λyₛₑ λxₛₑ . SEE(v)(x(v), y(v)))
   - TYPE MISMATCH: function wants a Q of type <s, <e, t>>, argument is of type <s, <<e, t>, <<e, t>, t>>>
 
-⸉test⸊
+❴test❵
 
 [remainder to be done in class]
 
