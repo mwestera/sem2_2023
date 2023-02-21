@@ -111,7 +111,7 @@ The set of worlds where everything that is a student (in that world) sleeps.
 
 #### Preview of the treatment of beliefs
 
-
+Basic idea: belief can be modeled as a relation between an individual's 'belief worlds' (the worlds they consider possible) and a proposition (= also a set of worlds).
 
 
 -----
@@ -120,7 +120,34 @@ The set of worlds where everything that is a student (in that world) sleeps.
 
 (Nothing to submit this week.)
 
-1. **Extra lambda exercises.** tbd.
-2. **Practice derivations.** Compositionally derive logical translations for the following sentences, ideally without looking at the class notes (unless you remain stuck for a while). Define adequate lexical entries as required.
-  1.  tbd.
-3. **Chapter 3.** Read chapter 13 about modeling compositionality.
+1. **Types.** For each of the following types, initially without looking at the notes above, (i) try to unambiguously describe the type in English (a function from...), and (ii) can you think of a class of natural language expressions whose _intension_ or _extension_ (indicate which!) would conceivably be of that type?  
+   1. <s, t>
+   2. <s, <<s, e>, t>
+   3. t
+   4. <<<s, e>, t>, <<s, e>, t>> 
+   5. <t, <t, t>>
+   6. e
+   7. <e, e>
+   8. <s, <<s, e>, <s, e>>>
+   9. <s, <<s, <<s, e>, t>>, t>>
+   10. <<s, e>, t>
+   11. <<s, e>, <<s, e>, t>>
+   12. <t, t>
+   13. <<s, <<s, e>, t>>, <<s, <<s, e>, t>>, t>>
+2. **Function/set duality.** Which of the above types can be equivalently described as a _function_ and as a _set_? For those, give the latter type of paraphrase.
+3. **Function application.** Which of the following pairs of types can be combined with _extensional_ function application (see last week)? Which can be combined with _intensional_ function application? In each case where combination is possible (whether extensional or intensional), indicate the type of the resulting expression. 
+   1. <s, <<s, e>, t> with <e, t>
+   2. <e, t> with <s, e>
+   3. e with <<e, t>, t>
+   4. <s, e> with <e, t> 
+   5. <e, <e, <e, t>>> with e
+   6. <e, <e, <e, t>>> with <e, e>
+   7. <s, e> with <<s, e>, t>
+   8. <s, <<s, <<s, e>, t>>, t>> with <s, <<s, e>, t>>
+4. **Chapter 13.** Read chapter 13 about modeling compositionality, and the short section 15.6 in chapter 15, about lambdas.
+5. **Sloppiness in chapter 13.** Can you identify points in the chapter where the author is not entirely consistent in their use of logic? Can you find places where the intermediate logical language (as used in 'indirect interpretation') is mixed with the metalanguage of set theory + English? (How would you reformulate these points/examples/definitions to maintain a clearer separation?) 
+6. **Practice derivations.** Compositionally derive logical translations for the following sentences, ideally without looking at the class notes (unless you remain stuck for a while). Specify adequate lexical entries as required.
+   1. Alan sleeps.
+   2. Susie kisses Alan.
+   3. A student sleeps.
+7. **Extending the fragment with adverbs.** ⭐⭐ Let's assume adjectives combine with a noun to form a noun phrase, and then with a determiner to form a determiner phrase. Note that adjectives are optional; moreover, note that we can in principle insert any number of adjectives without affecting the way the (modified) noun composes higher up. Given this, and taking note of the type we have been assigning to nouns so far (e.g. 'student'), what might be a possible type for an adjective? Try to illustrate your potential solution with a compositional translation of a phrase like 'tall student'.
