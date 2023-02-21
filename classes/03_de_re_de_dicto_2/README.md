@@ -90,7 +90,7 @@ So: the set of worlds in which whoever is Susie in that world, sees whoever is J
 Every student sleeps
 - sleeps ⇝ λwₛ λxₛₑ . SLEEP(w)(x(w))
 - student ⇝ λwₛ λxₛₑ . STUDENT(w)(x(w))
-- Every ⇝ λwₛ λP<sub><s, et></sub> λQ<sub><s, et></sub> ∀x [P(v)(λu.x) → Q(v)(λu.x)]
+- Every ⇝ λwₛ λP<sub><s, <<s, e>, t></sub> λQ<sub><s, <<s, e>, t></sub> ∀x [P(v)(λu.x) → Q(v)(λu.x)]
 - Every student ⇝ λvₛ . ❴every❵(v) (❴student❵)
   - λv (λw λP λQ ∀x [P(v)(λu.x) → Q(v)(λu.x)])(v) (λu λy. STUDENT(u)(y(u)))
   - λv (λP λQ ∀x [P(v)(λu.x) → Q(v)(λu.x)]) (λu λy. STUDENT(u)(y(u)))
@@ -109,20 +109,7 @@ Every student sleeps
 The set of worlds where everything that is a student (in that world) sleeps.
 
 
-#### Derivation with object quantifier
-
-John sees every student
-
-- sees ⇝ (λwₛ λyₛₑ λxₛₑ . SEE(w)(x(w), y(w)))
-- every student ⇝ λv (λQ ∀x [STUDENT(v)(x) → Q(v)(λu.x)])(w)
-- sees every student ⇝ λwₛ . ❴every student❵(w) (❴sees❵)
-  - λw (λv (λQ ∀x [STUDENT(v)(x) → Q(v)(λu.x)])(w)) (λvₛ λyₛₑ λxₛₑ . SEE(v)(x(v), y(v)))
-  - λw (λQ ∀x [STUDENT(w)(x) → Q(w)(λu.x)]) (λvₛ λyₛₑ λxₛₑ . SEE(v)(x(v), y(v)))
-  - TYPE MISMATCH: function wants a Q of type <s, <e, t>>, argument is of type <s, <<e, t>, <<e, t>, t>>>
-
-❴test❵
-
-[remainder to be done in class]
+#### Preview of the treatment of beliefs
 
 
 
