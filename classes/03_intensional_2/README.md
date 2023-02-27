@@ -144,7 +144,7 @@ Basic idea: belief can be modeled as a relation between an individual's 'belief 
    6. <e, <e, <e, t>>> with <e, e>
    7. <s, e> with <<s, e>, t>
    8. <s, <<s, <<s, e>, t>>, t>> with <s, <<s, e>, t>>
-4. **Chapter 13.** Read chapter 13 about modeling compositionality, and the short section 15.6 in chapter 15, about lambdas.
+4. **Chapter 13 and section 15.6.** Read chapter 13 about modeling compositionality, and the short section 15.6 in chapter 15, about lambdas.
 5. **Sloppiness in chapter 13.** Can you identify points in the chapter where the author is not entirely consistent in their use of logic? Can you find places where the intermediate logical language (as used in 'indirect interpretation') is mixed with the metalanguage of set theory + English? (How would you reformulate these points/examples/definitions to maintain a clearer separation?) 
 6. **Practice derivations.** Compositionally derive logical translations for the following sentences, ideally without looking at the class notes (unless you remain stuck for a while). Specify adequate lexical entries as required.
    1. Alan sleeps.
