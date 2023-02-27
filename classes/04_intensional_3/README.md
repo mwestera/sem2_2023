@@ -4,44 +4,33 @@
 ### Topics:
 - Finalizing our intensional semantic fragment... 
 - ...with special focus on set theory, models, type theory, logic and their relations.
+- Discussing the paper from week 2.
 
 ----
 
-### Preparation (do this before class; around 30 minutes)
+### Preparation (do this before class; around 20 minutes)
 
-1. **tbd.** tbd.
+1. **Review your week 2 submission.** Please take a moment to review your own submitted assignment about the de-re/de-dicto paper! Looking back, does it adequately address that week's assignment? Does it help you remember the crucial parts of the paper? Do you see room for improvement?
 
 -----
 
-### Class notes
+## Class notes
 
 
-### 2. The derivation of de-re/de-dicto ambiguity
-
->
-> - The Governor still believes in Santa Claus.
-> - Ponce de León hoped to find the fountain of youth.
-> 
-> [...]
-> Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value  of the sentence as a whole can be affected.
-> 
-> - Mary does not know [that Samuel Clemens is Mark Twain].
-> - ? Mary does not know [that Samuel Clemens is Samuel Clemens].
-
-Main take-away: expressions like believe, hope, seek should have access to the _intensions_ of their complements.
-
-> - The Dean believes that I am collaborating with a famous linguist.
-
-De-re/de-dicto: the de-dicto reading seems to involve the _intension_ of 'a famous linguist', de-re is about its _extension_.
+### 1. Lexical entries (and models) for propositional attitude verbs 
 
 
-#### Derivation with propositional attitude verb 'believe'
-
-Susie believes John sleeps.
-
-[to be done in class]
+### 2. Finally: a possible derivation of de-re/de-dicto ambiguity
 
 
+### 3. Reflections on 'indirect interpretation', logic, and models
+
+
+
+### 4. The paper you studied
+
+
+### 5. Open questions
 
 
 
@@ -49,7 +38,8 @@ Susie believes John sleeps.
 
 ### Postparation (do this after class; around 3 hours)
 
-1. **Logic exercises** tbd.
+1. **Indirect interpretation.** In your own words, explain the method of 'indirect interpretation' in semantics. Make sure to use the terms meta-language and object-language, explain the role of models, and identify possible (dis)adantages of using logic as an intermediary in modeling natural language semantics. 
+2. **Quantifier raising for de-re/de-dicto.** From memory, write out the formal, compositional derivation of the _two_ translations predicted for the sentence 'Mary believes a student sleeps'.
 2. **Set theory exercises.** tbd
 3. **Functions and relations.** tbd
 4. **Lambda abstraction.** Read section 15.6 in the textbook, about lamdas. Give English paraphrases for the following formulas:
@@ -63,4 +53,4 @@ Susie believes John sleeps.
    3. tbd
    4. tbd
 6. **Lambdas and quantifier raising.** Try to remember, with the help of your class notes if necessary, the role lambdas played in quantifier raising as discussed in Semantics 1.
-7. **De-re/de-dicto reflection _([📩 submit by 03-03-2023](https://tbd.url))_.** tbd.
+7. **De-re/de-dicto reflection _([📩 submit by 03-03-2023](https://tbd.url))_.** tbd.  [Feedbackfruits maybe?]
