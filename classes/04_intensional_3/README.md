@@ -17,6 +17,32 @@
 ## Class notes
 
 
+### 0. Quiz
+
+TODO; maybe a few examples from the paper?
+
+But though this story is plausible, it does not fit the facts (at least for
+these examples; for all we know, it might be true of some quite different
+examples not involving indefinites). Note that the wide scope, island-
+escaping reading of the indefinite is also available in examples like (67)
+and (68).
+
+(67) John wants to date exactly half the girls who go out with a
+professor who flunked him out of Linguistics 101.
+
+(68) Mary dates at least five men who know a producer I know.
+
+But neither (67) nor (68) satisfies condition (i), that the literal inter-
+pretation of the sentence entails the understanding
+that the hearer
+arrives at. For (67), there is no entailment relation in either direction
+between the two; for (68), there is an entailment relation but it is in the
+opposite direction.
+Condition (ii) als
+
+
+
+
 ### 1. Lexical entries (and models) for propositional attitude verbs 
 
 
@@ -30,7 +56,29 @@
 ### 4. The paper you studied
 
 
+TODO: just cycle through the key examples? 
+
+>
+> - The Governor still believes in Santa Claus.
+> - Ponce de León hoped to find the fountain of youth.
+> 
+> [...]
+> Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value  of the sentence as a whole can be affected.
+> 
+> - Mary does not know [that Samuel Clemens is Mark Twain].
+> - ? Mary does not know [that Samuel Clemens is Samuel Clemens].
+
+Main take-away: expressions like believe, hope, seek should have access to the _intensions_ of their complements.
+
+> - The Dean believes that I am collaborating with a famous linguist.
+
+De-re/de-dicto: the de-dicto reading seems to involve the _intension_ of 'a famous linguist', de-re is about its _extension_.
+
+
+
 ### 5. Open questions
+
+Announce possible project?
 
 
 -----
@@ -77,7 +125,7 @@
    2. If you got stuck, at least provide the two translations you would expect to get out at the top node. Is there an entailment relation between the two translations? Should there be? Try to provide reasoning for your answer, illustrated by one or several models.
 9. **Why the quantifier-raising account may be insufficient for wide-scope indefinites.** Do you remember from the paper (and class discussion) the _main argument_ why a quantifier raising account may be insufficient? (Remember that section 2 has a rather slow build up, culminating in the most serious evidence in section 2.3). Try to recontruct some of the crucial examples, and indicate exactly what the problem is. Does this mean quantifier raising should _not_ be assumed as a possible mechanism in semantics?
 10. **An account of the factivity of know _([📩 submit by 03-03-2023](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941))_.**
-   1. Provide a lexical entry for the verb _know_ (translation into logic), analogous to that of _belief_, and also specify its interpretation into the set-theoretical meta-language. You can refer to an individual's 'knowledge worlds' in a given world as, say, the set K_w.
-   2. It has often been observed that English _know_ presupposes the truth of its complement (i.e., it is weird to say "Anna _knows_ that it's raining" if you (as the speaker) think that it isn't.). This is the _factivity_ presupposition of _know_. By your own judgments (in a language of choice), test which of the following propositional attitude verbs similarly presuppose factivity (provide concrete linguistic examples as evidence): _believe_, _discover_, _see_, _doubt_.
-   3. Let's say w₀ in our set-theoretical meta-language always refers to the _actual_ world in which the utterance is being made. Can you capture the factivity presupposition of _know_ by tweaking the interpretation of KNOW, that is, on the set theory side? Perhaps factivity can be modeled as some kind of relation between the actual world w₀ and a person's knowledge-worlds...
-   4. Instead of specifying factivity in the _interpretation_ of the predicate KNOW, we could also include it, instead, in the lexical entry for _know_, i.e., in its _translation_ to logic. Find a way to achieve this, by making use of the fact that functions (to truth values) can be seen as sets.
+    1. Provide a lexical entry for the verb _know_ (translation into logic), analogous to that of _belief_, and also specify its interpretation into the set-theoretical meta-language. You can refer to an individual's 'knowledge worlds' in a given world as, say, the set K_w.
+    2. It has often been observed that English _know_ presupposes the truth of its complement (i.e., it is weird to say "Anna _knows_ that it's raining" if you (as the speaker) think that it isn't.). This is the _factivity_ presupposition of _know_. By your own judgments (in a language of choice), test which of the following propositional attitude verbs similarly presuppose factivity (provide concrete linguistic examples as evidence): _believe_, _discover_, _see_, _doubt_.
+    3. Let's say w₀ in our set-theoretical meta-language always refers to the _actual_ world in which the utterance is being made. Can you capture the factivity presupposition of _know_ by tweaking the interpretation of KNOW, that is, on the set theory side? Perhaps factivity can be modeled as some kind of relation between the actual world w₀ and a person's knowledge-worlds...
+    4. Instead of specifying factivity in the _interpretation_ of the predicate KNOW, we could also include it, instead, in the lexical entry for _know_, i.e., in its _translation_ to logic. Find a way to achieve this, by making use of the fact that functions (to truth values) can be seen as sets.
