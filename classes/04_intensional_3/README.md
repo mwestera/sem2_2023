@@ -19,28 +19,6 @@
 
 ### 0. Quiz
 
-TODO; maybe a few examples from the paper?
-
-But though this story is plausible, it does not fit the facts (at least for
-these examples; for all we know, it might be true of some quite different
-examples not involving indefinites). Note that the wide scope, island-
-escaping reading of the indefinite is also available in examples like (67)
-and (68).
-
-(67) John wants to date exactly half the girls who go out with a
-professor who flunked him out of Linguistics 101.
-
-(68) Mary dates at least five men who know a producer I know.
-
-But neither (67) nor (68) satisfies condition (i), that the literal inter-
-pretation of the sentence entails the understanding
-that the hearer
-arrives at. For (67), there is no entailment relation in either direction
-between the two; for (68), there is an entailment relation but it is in the
-opposite direction.
-Condition (ii) als
-
-
 
 
 ### 1. Lexical entries (and models) for propositional attitude verbs 
@@ -55,24 +33,6 @@ Condition (ii) als
 
 ### 4. The paper you studied
 
-
-TODO: just cycle through the key examples? 
-
->
-> - The Governor still believes in Santa Claus.
-> - Ponce de León hoped to find the fountain of youth.
-> 
-> [...]
-> Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value  of the sentence as a whole can be affected.
-> 
-> - Mary does not know [that Samuel Clemens is Mark Twain].
-> - ? Mary does not know [that Samuel Clemens is Samuel Clemens].
-
-Main take-away: expressions like believe, hope, seek should have access to the _intensions_ of their complements.
-
-> - The Dean believes that I am collaborating with a famous linguist.
-
-De-re/de-dicto: the de-dicto reading seems to involve the _intension_ of 'a famous linguist', de-re is about its _extension_.
 
 
 
