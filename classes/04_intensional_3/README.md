@@ -17,28 +17,39 @@
 ## Class notes
 
 
-### 0. Quiz
-
+### 0. Homework discussion
 
 
 ### 1. Lexical entries (and models) for propositional attitude verbs 
 
 
-### 2. Finally: a possible derivation of de-re/de-dicto ambiguity
+### 2. Reflections on 'indirect interpretation', logic, and models
 
 
-### 3. Reflections on 'indirect interpretation', logic, and models
-
-
-
-### 4. The paper you studied
+### 3. Finally: a possible derivation of de-re/de-dicto ambiguity
 
 
 
+### 4. The Fodor and Sag paper
 
-### 5. Open questions
+Fodor and Sag distinguish two candidate theories: 
+- indefinites are a quantifier, albeit with the special property that it can escape scope islands.
+- indefinites have a purely referential reading, i.e., it can refer to one specific individual regardless of scope.
 
-Announce possible project?
+How exactly does the following example help us test which of these is correct?
+
+(69) Each teacher overheard the rumor that a student of mine had been called before the dean.
+
+
+
+### 5. What about identity statements (& substitutivity)?
+
+> Frege pointed out that when we substitute one co-referential expression for another in the complement clause of a propositional attitude verb, the truth value  of the sentence as a whole can be affected.
+> 
+> - Mary does not know [that Samuel Clemens is Mark Twain].
+> - ? Mary does not know [that Samuel Clemens is Samuel Clemens].
+
+
 
 
 -----
