@@ -92,7 +92,7 @@ TODOs (next time, but also in the homework below):
    1. Specify in set theory an example (say, on a domain of four individuals) of the type of function that could be the _extension_ of an intransitive verb like _walk_. That is, fill in the dots: ⟦WALK(w)⟧ = .... If you are unsure, consider the _type_ (s, e, t, etc.) of (the extension of) intransitive verbs.
    2. Similarly, specify an example of the type of function that could be the _intension_ of an intransitive verb, i.e., ⟦WALK⟧ = ....
 7. **Belief.** Suppose there are two worlds: w₁ in which it rains, and w₂ in which it doesn't. Specify (set-theoretically) John's belief worlds in w₁, such that, in w₁, John believes that it doesn't rain. Next, specify John's belief worlds in w₂ such that, in that world, John is unsure whether it rains. (This can be difficult to wrap your head around at first, so collaborate, and/or ask in the forum if you get stuck!)
-8. **Derivation with 'belief'.** 
+8. **Derivation with 'belief' _([📩 submit by 03-03-2023](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941))_.** 
    1. Provide a formal derivation of the logical translation of the sentence 'A student sleeps'.
    2. Next, compositionally derive a translation (using the result you obtained previously and the lexical entry from the class notes) for the sentence 'Mary believes a student sleeps'.
    3. Define a model (using English, set theory and/or pictures) containing at least one world in which the sentence is true, specifying all the relevant pieces (mainly, Mary's belief worlds).
