@@ -50,7 +50,7 @@ Equivalently: the logical expression on the left (informally: in world w, a beli
 
 (Equation (1) merely enables equation (2) to be derived compositionally, but we need not care about that; we care only really about compositionality of the object language, not the logical language...)
 
-TODOs (next time, but also in the homework below):
+TODOs:
 - Derive the de-re/de-dicto stuff with quantifier raising.
 - Discuss the Fodor and Sag stuff on why this may not be sufficient.
 
