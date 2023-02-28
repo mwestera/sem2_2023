@@ -36,21 +36,27 @@
 
 Let Bel(d, w) be the set of worlds that individual d considers possible in w.
 
-NOTE: The following will be adjusted.
+In class we arrived at the following:
 
-⟦BELIEVE⟧ = {<w, {<(d, p), Bel(d, w) ⊆ p> | for every individual d}> | for every world w}
+(1) ⟦BELIEVE⟧ = {<w, {<(d, p), Bel(d, w) ⊆ p> | for every individual d}> | for every world w}
 
+But here is a much clearer (formally equivalent) formulation I should have used (NB. Whereas in (1), w, d and p were variables in the meta-language, in (2) we use w, a and ℙ in the object language, hence the square brackets around them are needed on the right-hand side):
 
-TODOs:
+(2) ⟦BELIEVE(w)(a, ℙ)⟧ = True if Bel(⟦a⟧, ⟦w⟧) ⊆ ⟦ℙ⟧, False otherwise 
+
+Altogether, equation (2) states that the logical expression on the left (informal paraphrase: in world w, a believes ℙ) is interpreted as True whenever the individual's belief worlds in that world are a subset of the given proposition, and False otherwise. 
+
+Equivalently: the logical expression on the left (informally: in world w, a believes ℙ) whenever in the given world, all of the individual's belief worlds are ones that make the proposition True.
+
+(Equation (1) merely enables equation (2) to be derived compositionally, but we need not care about that; we care only really about compositionality of the object language, not the logical language...)
+
+TODOs (next time, but also in the homework below):
 - Derive the de-re/de-dicto stuff with quantifier raising.
 - Discuss the Fodor and Sag stuff on why this may not be sufficient.
-
 
 -----
 
 ### Postparation (do this after class; around 3 hours)
-
-[NOTE: We didn't get quite as far in class, so the homework will be adjusted a bit. Stay tuned!]
 
 1. **Indirect interpretation.** In your own words, explain the method of 'indirect interpretation' in semantics. Make sure to use the terms meta-language and object-language, explain the role of models, and identify possible (dis)adantages of using logic as an intermediary in modeling natural language semantics. 
 2. **Set theory exercises.** Suppose we have sets A = {1, 3, 5}, B = {2, 4, 6} and C = {1, 2, 4, 5}. For each of the following expressions, indicate whether they are well-formed, and if so, write down what the expression evaluates to (in these cases either a truth value or a set):
@@ -83,16 +89,15 @@ TODOs:
    4. {<a, b>, <b, c>, <c, d>, <d, a>}
    5. {<a, b>, <b, c>, <a, c>, <d, c>}
 6. **Functions and intensions.** 
-   1. Specify in set theory an example (say, on a domain of four individuals) of the type of function that could be the _extension_ of an intransitive verb like _walk_. If you are unsure, consider the _type_ (s, e, t, etc.) of intransitive verbs.  
-   2. Similarly, specify an example of the type of function that could be the _intension_ of an intransitive verb.
-   3. Do the same for the extension and intension of a _transitive_ verb like _kiss_.
-7. **Belief.** Recall that BELIEF can be interpreted (in each world) as a relation between an individual (the subject) and a set of its 'belief worlds'. Specify such a relation in set theory, assuming, say, three individuals and four worlds, such that individual _a_ believes it is raining, individual _b_ believes that it is not raining, and individual _c_ does not hold either belief (i.e., they are unsure).
-8. **Quantifier raising for de-re/de-dicto.** 
-   1. Try to write out the formal, compositional derivation of the _two_ translations predicted for the sentence 'Mary believes a student sleeps'.
-   2. If you got stuck, at least provide the two translations you would expect to get out at the top node. Is there an entailment relation between the two translations? Should there be? Try to provide reasoning for your answer, illustrated by one or several models.
-9. **Why the quantifier-raising account may be insufficient for wide-scope indefinites.** Do you remember from the paper (and class discussion) the _main argument_ why a quantifier raising account may be insufficient? (Remember that section 2 has a rather slow build up, culminating in the most serious evidence in section 2.3). Try to recontruct some of the crucial examples, and indicate exactly what the problem is. Does this mean quantifier raising should _not_ be assumed as a possible mechanism in semantics?
+   1. Specify in set theory an example (say, on a domain of four individuals) of the type of function that could be the _extension_ of an intransitive verb like _walk_. That is, fill in the dots: ⟦WALK(w)⟧ = .... If you are unsure, consider the _type_ (s, e, t, etc.) of (the extension of) intransitive verbs.
+   2. Similarly, specify an example of the type of function that could be the _intension_ of an intransitive verb, i.e., ⟦WALK⟧ = ....
+7. **Belief.** Suppose there are two worlds: w₁ in which it rains, and w₂ in which it doesn't. Specify (set-theoretically) John's belief worlds in w₁, such that, in w₁, John believes that it doesn't rain. Next, specify John's belief worlds in w₂ such that, in that world, John is unsure whether it rains. (This can be difficult to wrap your head around at first, so collaborate, and/or ask in the forum if you get stuck!)
+8. **Derivation with 'belief'.** 
+   1. Provide a formal derivation of the logical translation of the sentence 'A student sleeps'.
+   2. Next, compositionally derive a translation (using the result you obtained previously and the lexical entry from the class notes) for the sentence 'Mary believes a student sleeps'.
+   3. Define a model (using English, set theory and/or pictures) containing at least one world in which the sentence is true, specifying all the relevant pieces (mainly, Mary's belief worlds).
+   4. Does your translation correspond to a de-re or de-dicto reading? (Next week we'll derive the other reading; it's taking a while to get there!)
 10. **An account of the factivity of know.**
-    1. Provide a lexical entry for the verb _know_ (translation into logic), analogous to that of _belief_, and also specify its interpretation into the set-theoretical meta-language. You can refer to an individual d's 'knowledge worlds' in a given world w as, say, the set K(d, w).
+    1. First, define a lexical entry for the verb _know_ (translation into logic), that is entirely analogous to that of _belief_, except it has predicate KNOW instead of BELIEVE. For starters, let's interpret KNOW exactly like BELIEVE (see class notes): ⟦KNOW(w)(a, ℙ)⟧ = True if Bel(⟦a⟧, ⟦w⟧) ⊆ ⟦ℙ⟧, False otherwise.
     2. It has often been observed that English _know_ presupposes the truth of its complement (i.e., it is weird to say "Anna _knows_ that it's raining" if you (as the speaker) think that it isn't.). This is the _factivity_ presupposition of _know_. By your own judgments (in a language of choice), test which of the following propositional attitude verbs similarly presuppose factivity (provide concrete linguistic examples as evidence): _believe_, _discover_, _see_, _doubt_.
-    3. Let's say w₀ in our set-theoretical meta-language always refers to the _actual_ world in which the utterance is being made. Can you capture the factivity presupposition of _know_ by tweaking the interpretation of KNOW, that is, on the set theory side? Perhaps factivity can be modeled as some kind of relation between the actual world w₀ and a person's knowledge-worlds...
-    4. Instead of specifying factivity in the _interpretation_ of the predicate KNOW, we could also include it, instead, in the lexical entry for _know_, i.e., in its _translation_ to logic. Find a way to achieve this, by making use of the fact that functions (to truth values) can be seen as sets.
+    3. Let's add a shorthand w<sub>u</sub> to our set-theoretical meta-language, which always refers to the _actual_ world in which the utterance is being made. Can you capture the factivity of _know_ by tweaking the interpretation of KNOW, adding some kind of constraint involving w<sub>u</sub> and ⟦ℙ⟧? That is, fill in the dots: ⟦KNOW(w)(a, ℙ)⟧ = True if Bel(⟦a⟧, ⟦w⟧) ⊆ ⟦ℙ⟧ and ..., False otherwise. _(This is tricky to conceive, but not super complicated once you see it. Please collaborate, and ask in the forum if you get stuck, there indicating what you have tried so far and why it doesn't work.)_
