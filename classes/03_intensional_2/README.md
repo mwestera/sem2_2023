@@ -136,7 +136,7 @@ Basic idea: belief can be modeled as a relation between an individual's 'belief 
    13. <<s, <<s, e>, t>>, <<s, <<s, e>, t>>, t>>
 2. **Function/set duality.** Which of the above types can be equivalently described as a _function_ and as a _set_? For those, give the latter type of paraphrase.
 3. **Function application.** Which of the following pairs of types can be combined with _extensional_ function application (see last week)? Which can be combined with _intensional_ function application? In each case where combination is possible (whether extensional or intensional), indicate the type of the resulting expression. 
-   1. <s, <<s, e>, t> with <e, t>
+   1. <s, <<s, e>, t>> with <e, t>
    2. <e, t> with <s, e>
    3. e with <<e, t>, t>
    4. <s, e> with <e, t> 
