@@ -1,7 +1,8 @@
 
-## 🏛 Class 5 (07-03-2023): Quantifiers (1/2)
+## 🏛 Class 5 (07-03-2023): Quantifiers (1/3)
 
 ### Topics:
+- Final part of propositional attitudes
 - Quantifier raising (recap)
 - Types of quantifiers
 
@@ -9,7 +10,7 @@
 
 ### Preparation (do this before class; around 30 minutes)
 
-1. **tbd.** tbd.
+Up to you :)
 
 -----
 
