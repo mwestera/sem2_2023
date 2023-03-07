@@ -1,5 +1,5 @@
 
-## 🏛 Class 6 (14-03-2023): Quantifiers (2/2)
+## 🏛 Class 6 (14-03-2023): Quantifiers (2/3)
 
 ### Topics:
 - Primary literature: acquisition of quantifiers 

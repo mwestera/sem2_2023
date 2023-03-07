@@ -1,5 +1,5 @@
 
-## 🏛 Class 9 (18-04-2023): Modals and evidentials (1/2)
+## 🏛 Class 8 (04-04-2023): Questions (1/2)
 
 ### Topics:
 - tbd
@@ -15,4 +15,4 @@
 ### Postparation (do this after class; around 3 hours)
 
 1. **tbd.** tbd.
-7. **tbd _([📩 submit by 21-04-2023](tbd.url))_.** tbd.
+7. **tbd _([📩 submit by 07-04-2023](tbd.url))_.** tbd.
