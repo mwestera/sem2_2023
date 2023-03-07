@@ -30,7 +30,7 @@
 
 - sleeps ⇝ λwₛ λxₛₑ . SLEEP(w)(x(w))
 - student ⇝ λwₛ λxₛₑ . STUDENT(w)(x(w))
-- a ⇝ λwₛ λP<sub><s, <<s, e>, t></sub> λQ<sub><s, <<s, e>, t></sub> ∃x [P(v)(λu.x) ∧ Q(v)(λu.x)]
+- a ⇝ λwₛ λP<sub><s, <<s, e>, t></sub> λQ<sub><s, <<s, e>, t></sub> ∃x [P(w)(λu.x) ∧ Q(w)(λu.x)]
 - John ⇝ λwₛ. john(w)
 - believe ⇝ λwₛ λℙₛₜ λxₛₑ ( BELIEVE(w)(x(w), ℙ) )
 
