@@ -122,5 +122,9 @@ Exercises will be completed later today; nothing to submit this week _but if you
 4. **Restricted quantifier notation.** The notation introduced in 14.3 is informal. Nevertheless, it looks like the formulae we are used to, with quantifiers and square brackets. Are looks deceiving?
 5. **Scope ambiguities.** For examples (24), (25) and (26) in the textbook, which illustrate non-entailments, define a model (picture, or set theory, or both) that demonstrates this lack of an entailment relation. (Recall from Semantics 1: to show that A does _not_ entail B, you need to define a model where A is true but B is false.)
 6. **Scope ambiguities and entailment (2).** From the textbook do **Homework** exercise A (p.265). _In addition_, if a sentence allows two interpretations, determine whether one entails the other and vice versa, and support your answer with an example (e.g., one or more models).
-
-...Additional practice exercises (lambdas, intensions, composition) will come online soon...
+7. **Modeling beliefs.** Define a single model in which there is at least one world in which each of the following three sentences are simultaneously true. Make sure to specify, for each world, whether it is in fact raining there or not.
+   1. Alf believes that it is raining.
+   2. Beth believes that it is not raining.
+   3. Alf believes that Beth believes that it is raining.
+8. **Modeling knowledge.** Define a model in which Beth is a meteorologist, in the following sense: in each possible world, whatever she believes about the rain in that world must be true in that world.
+9. **Revisit previous lambda/logic/set theory exercises.** There is virtually infinite practice in retrying the more 'formal' exercises and exploring variants on your own. If anything remains puzzling, make sure you write your questions down and ask them in the forum, class, or the office hours.
