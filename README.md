@@ -17,6 +17,7 @@ https://langsci-press.org/catalog/book/359
 |  [📝](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941) | 03-03-2023 | Assignment 4.8 |          Derivation with 'belief'         | [Details](classes/04_intensional_3/README.md) |
 |                                          🏛                                          | 07-03-2023 |    Class 5     |             Quantifiers (1/3)             |  [Details](classes/05_quantifiers/README.md)  |
 |                                          🏛                                          | 14-03-2023 |    Class 6     |             Quantifiers (2/3)             | [Details](classes/06_quantifiers_2/README.md) |
+|  [📝](https://brightspace.universiteitleiden.nl/d2l/le/lessons/210127/units/2292941) | 17-03-2023 | Assignment 6.4 |            Linguistic examples            | [Details](classes/06_quantifiers_2/README.md) |
 |                                          🏛                                          | 21-03-2023 |    Class 7     |             Quantifiers (3/3)             | [Details](classes/07_quantifiers_3/README.md) |
 |                                          🏁                                          | 28-03-2023 | Mid-term exam  |                                           |                                               |
 |                                          🏛                                          | 04-04-2023 |    Class 8     |              Questions (1/2)              |   [Details](classes/08_questions/README.md)   |
