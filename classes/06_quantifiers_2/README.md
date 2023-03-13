@@ -6,6 +6,8 @@
 - The 'singleton quantifier domains' idea
 - Prep for the reading material on quantifiers in American Sign Language.
 
+(Office hours this week incidentally in Reuvens 1.46a.) 
+
 ----
 
 ### Preparation (do this before class; around 30 minutes)
