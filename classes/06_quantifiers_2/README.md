@@ -24,6 +24,68 @@
 
 ## Class notes
 
+
+### 1. Quantifier raising
+
+**Basic recipe:**
+- A quantificational DP node can rise up in the tree, leaving a trace behind.
+- Traces get translated as free variables (not bound by any lambda/quantifier).
+- Just before composing with the raised DP, the variable is bound by a lambda (for subsequent composition).
+
+_**Question:** What type should the trace be?_
+
+t sleeps ⇝ λw ❴sleeps❵(w)(❴t❵) 
+- λw (λvλx.SLEEP(v)(x(v)))(w)(z)
+- λw (λx.SLEEP(w)(x(w)))(z)
+- λw (SLEEP(w)(z(w)))
+
+believes t sleeps ⇝ λw ❴believes❵(w) (❴t sleeps❵)
+- λw (λw λℙ λx ( BELIEVE(w)(x(w), ℙ) ))(w) (λv (SLEEP(v)(z(v))))
+- λw (λℙ λx ( BELIEVE(w)(x(w), ℙ) )) (λv (SLEEP(v)(z(v))))
+- λw (λx BELIEVE(w)(x(w), λv(SLEEP(v)(z(v)))))
+
+Mary believes t sleeps ⇝ λw ❴believes t sleeps❵(w) (❴mary❵)
+- λw (λw λx BELIEVE(w)(x(w), λv (SLEEP(v)(z(v)))))(w) (λv.mary(v))
+- λw (λx BELIEVE(w)(x(w), λv (SLEEP(v)(z(v))))) (λv.mary(v))
+- λw (BELIEVE(w)((λv.mary(v))(w), λv (SLEEP(v)(z(v)))))
+- λw (BELIEVE(w)(mary(w), λv (SLEEP(v)(z(v)))))
+
+Lambda abstraction (and then creating an intension again) over the trace variable z (sometimes assumed to be an operation by a 'silent node' in the tree, here omitted):
+
+Mary believes t sleeps ⇝ λw λz (BELIEVE(w)(mary(w), λv (SLEEP(v)(z(v)))))
+
+Composing with the raised quantifier:
+
+A student Mary believes t sleeps ⇝ λw ❴a student❵(w)(❴Mary believes t sleeps❵)
+- λw (λw λQ.∃x [ (STUDENT(w)(x) ∧ Q(w)(λu.x)])) (w) (λu λz (BELIEVE(u)(mary(u), λv (SLEEP(v)(z(v))))))
+- λw (λQ.∃x [ (STUDENT(w)(x) ∧ Q(w)(λu.x)])) (λu λz (BELIEVE(u)(mary(u), λv (SLEEP(v)(z(v))))))
+- λw (∃x [ (STUDENT(w)(x) ∧  (λu λz (BELIEVE(u)(mary(u), λv (SLEEP(v)(z(v))))))  (w)(λu.x)]))
+- λw (∃x [ STUDENT(w)(x) ∧  (λz (BELIEVE(w)(mary(w), λv (SLEEP(v)(z(v))))))(λu.x)])
+- λw (∃x [ STUDENT(w)(x) ∧  BELIEVE(w)(mary(w), λv (SLEEP(v)((λu.x)(v))))])
+- λw (∃x [ STUDENT(w)(x) ∧  BELIEVE(w)(mary(w), λv SLEEP(v)(x))])
+
+De re :)
+
+
+
+"Since we have QR and it accounts for the de-re/de-dicto ambiguity, we might as well use it."
+
+_Enter Fodor and Sag..._
+
+### 2. The Fodor and Sag paper
+
+Fodor and Sag distinguish two candidate theories: 
+- indefinites are a quantifier, albeit with the special property that it can escape scope islands.
+- indefinites have a purely referential reading, i.e., it can refer to one specific individual regardless of scope.
+
+How exactly does the following example help us test which of these is correct?
+
+(69) Each teacher overheard the rumor that a student of mine had been called before the dean.
+
+
+### 3. Quantifier domains
+
+
 -----
 
 ### Postparation (do this after class; around 3 hours)
